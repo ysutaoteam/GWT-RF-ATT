@@ -10,6 +10,7 @@ Find the shortest and longest distance between features;
 Calculate the wavelet coefficients of the feature vector;
 Use RF to predict patient severity;
 Improving RF using attention mechanism.
+
 Therefore, the motor and total folders contain the following files:
 ## 1）cluster
 Clustering patient data. This paper divides the data into 4 clusters。
