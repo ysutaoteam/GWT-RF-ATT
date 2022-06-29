@@ -18,15 +18,15 @@ Use RF to predict patient severity;
 Improving RF using attention mechanism.
 
 Therefore, the motor and total folders contain the following files:
-## 1）cluster
+## 1）cluster.py
 Clustering patient data. This paper divides the data into 4 clusters。
-## 2）0 Calculate distance between features
+## 2）0 Calculate distance between features.py
 Judging similarity between features by Euclidean distance
-## 3）1 Shortest Path_Wavelet Coefficients_RF Prediction
+## 3）1 Shortest Path_Wavelet Coefficients_RF Prediction.py
 Find the shortest path between features, perform wavelet transform on the feature vector, and use RF to predict the severity of the disease
-## 4）1 Longest Path_Wavelet Coefficients_RF Prediction
+## 4）1 Longest Path_Wavelet Coefficients_RF Prediction.py
 Find the shortest path between features, perform wavelet transform on the feature vector, and use RF to predict the severity of the disease
-## 5）1 Original Path_Wavelet Coefficients_RF Prediction
+## 5）1 Original Path_Wavelet Coefficients_RF Prediction.py
 Wavelet transform the original feature vector and use RF to predict disease severity
-## 6）2 Improving RF with Attention Mechanism
+## 6）2 Improving RF with Attention Mechanism.py
 The frequency features are input into the attention weighted RF to predict the severity of PD, allowing the results of decision trees with better predictive performance in the RF to be highlighted while reducing the risk of overfitting.
