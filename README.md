@@ -4,11 +4,17 @@ We provide the code for the GWT-RF-ATT method(https://doi.org/10.1016/j.eswa.202
 The code is tested on 64 bit Windows 10. You should also install Python 3.8 before running our code.
 ## motor and total folders
 The implementation of the GWT-RF-ATT method mainly includes the following steps:
+
 cluster;
+
 Calculate the distance between features;
+
 Find the shortest and longest distance between features;
+
 Calculate the wavelet coefficients of the feature vector;
+
 Use RF to predict patient severity;
+
 Improving RF using attention mechanism.
 
 Therefore, the motor and total folders contain the following files:
